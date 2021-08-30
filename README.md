@@ -14,6 +14,7 @@
 ## Analysis and Challenges 
 
 ### Analysis of Outcomes Based on Launch Date
+___
   **Outcomes Based on Launch Date** was made by pivoting the 3 campaign outcomes *- successful, failed, canceled -* against the launch date *- month in this case -* 
 of the theaters. 
 
@@ -28,7 +29,7 @@ The graph shows us the difference between how many theaters failed vs. succeeded
 All together, the Pivot Chart displays an easy to understand theater outcome number total based on the launch date presented by month.  
 
 ### Analysis of Outcomes Based on Goals
-
+___
 **Outcomes Based on Goal** was made by creating and populating a 8x12 table. This table utilized the COUNTIFS() Excel formula to pull the number of theater outcomes (successful, failed, canceled) from the main
 "Kickstarter" sheet based on the Goal number set in column 1, as well as the Subcategory "plays". 
 
@@ -41,7 +42,7 @@ From here, by dividing Number Successful/Failed/Canceled by its corresponding ro
 According to the graph presented, more than 50% of theaters were successful with goals ranging between (Less Than 1000) and (15000 to 19999). More than 50% of theaters with goals set between (20000 to 24999) and (30000 to 34999) failed, while 67% of theaters with goals between (35000 to 39999) and (40000 to 44999) succeeded. More than 88% (up to 100%) of theaters with goals above 45000 failed. 
 
 ### Challenges and Difficulties Encountered
-
+---
 **Challenges:**
 No challenges were encountered during the creation of either of the two analyses mentioned above. *Possible* challenges that could be encountered during a task like these could be:
 - Innaccurately placing the PivotTable Fields in their respective areas; If a field is placed in the incorrect area, the Pivot Table for Theater Outcomes Based on Launch Date will show different data 
