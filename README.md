@@ -30,10 +30,10 @@ All together, the Pivot Chart displays an easy to understand theater outcome num
 
 ### Analysis of Outcomes Based on Goals
 ___
-**Outcomes Based on Goal** was made by creating and populating a 8x12 table. This table utilized the COUNTIFS() Excel formula to pull the number of theater outcomes (successful, failed, canceled) from the main
+**Outcomes Based on Goal** was made by creating and populating a 8x12 table. This table utilized the COUNTIFS( ) Excel formula to pull the number of theater outcomes (successful, failed, canceled) from the main
 "Kickstarter" sheet based on the Goal number set in column 1, as well as the Subcategory "plays". 
 
-Together, these 3 constraints (goal/outcome/subcategory-plays) arranged the number of theaters that were either successful/failed/canceled based on the monetary ($) goal presented. A simple SUM() formula was used to total each row of theaters by goal. 
+Together, these 3 constraints (goal/outcome/subcategory-plays) arranged the number of theaters that were either successful/failed/canceled based on the monetary ($) goal presented. A simple SUM( ) formula was used to total each row of theaters by goal. 
 
 From here, by dividing Number Successful/Failed/Canceled by its corresponding row total, the percentage was obtained. This percentage (%) was then graphed (below) using a line graph to show the final result of outcomes based on goal. 
 
@@ -47,26 +47,31 @@ According to the graph presented, more than 50% of theaters were successful with
 No challenges were encountered during the creation of either of the two analyses mentioned above. *Possible* challenges that could be encountered during a task like these could be:
 - Innaccurately placing the PivotTable Fields in their respective areas; If a field is placed in the incorrect area, the Pivot Table for Theater Outcomes Based on Launch Date will show different data 
 from what is required, which in turn would change the outlook of the Pivot Chart presented.
-- Missing one of the criteria ranges in the COUNTIFS() formula. This would result in the formula giving innaccurate # of projects, which would throw off the percentages and in turn inccorectly display the
+- Missing one of the criteria ranges in the COUNTIFS( ) formula. This would result in the formula giving innaccurate # of projects, which would throw off the percentages and in turn inccorectly display the
 data in the table.
 - Misspelling any of the formulas used in the above analyses. 
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+**1) What are two conclusions you can draw about the Outcomes based on Launch Date?**
+
 Conclusion 1: The month of December presents low numbers of success on top of a 50% of failure.
+
 Conclusion 2: According to the data, the months of May and June have the highest numbers of successful theaters, so one is likely to have better results opening a venue during these months.  
 
-- What can you conclude about the Outcomes based on Goals?
+**2) What can you conclude about the Outcomes based on Goals?**
+
 Conclusion: Goals ranging from less than 1000 to 15000 have a higher percentage of succesful theater launches, so in conclusion one should set their maximum goal no larger than 15000.
 
-- What are some limitations of this dataset?
+**3) What are some limitations of this dataset?**
  
-1. Not enough of a large pool of theaters to make generalizations based off the presented trends.
-2. Not enough variable calculation of available plays/actors at certain times of the year which influence success/failure for different months.
-3. Data could be incomplete, as some missing theaters might have not been accounted for, which limits the usability of this analysis.   
+a. Not enough of a large pool of theaters to make generalizations based off the presented trends.
 
-- What are some other possible tables and/or graphs that we could create?
+b. Not enough variable calculation of available plays/actors at certain times of the year which influence success/failure for different months.
+
+c. Data could be incomplete, as some missing theaters might have not been accounted for, which limits the usability of this analysis.   
+
+**4) What are some other possible tables and/or graphs that we could create?**
 
 Could have created a box and whisker graph showing the difference in average numbers of theaters used for this study. At the same time, we could have defined our current graphs more accurately to include the numbers of theaters used per each goal. 
 
